@@ -31,8 +31,8 @@ import (
 	metricsclient "k8s.io/metrics/pkg/client/clientset/versioned"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	"github.com/fission/fission/pkg/utils"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type ClientGenerator struct {

@@ -27,8 +27,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 // Deployment Constants

@@ -33,12 +33,12 @@ import (
 	"k8s.io/client-go/kubernetes"
 	k8sCache "k8s.io/client-go/tools/cache"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/crd"
-	"github.com/fission/fission/pkg/executor/util"
-	fetcherConfig "github.com/fission/fission/pkg/fetcher/config"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	"github.com/fission/fission/pkg/utils"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/crd"
+	"github.com/jwebb1334/fission/pkg/executor/util"
+	fetcherConfig "github.com/jwebb1334/fission/pkg/fetcher/config"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 
-	"github.com/fission/fission/cmd/fission-cli/app"
+	"github.com/jwebb1334/fission/cmd/fission-cli/app"
 )
 
 const fmTemplate = `---

@@ -19,7 +19,7 @@ package mqtrigger
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/fission/fission/pkg/utils/metrics"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
 )
 
 var (

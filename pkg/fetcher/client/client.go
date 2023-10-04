@@ -14,8 +14,8 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/net/context/ctxhttp"
 
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/fetcher"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/fetcher"
 )
 
 type (

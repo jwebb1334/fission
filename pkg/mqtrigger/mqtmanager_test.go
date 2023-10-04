@@ -22,9 +22,9 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/mqtrigger/messageQueue"
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/mqtrigger/messageQueue"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 )
 
 type mqtConsumer struct {

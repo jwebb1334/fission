@@ -33,7 +33,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/fission/fission/pkg/storagesvc"
+	"github.com/jwebb1334/fission/pkg/storagesvc"
 )
 
 const (

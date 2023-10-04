@@ -28,14 +28,14 @@ install_stable_release() {
     doit kubectl create ns $ns
 
     echo "Creating CRDs"
-    doit kubectl create -k "github.com/fission/fission/crds/v1?ref=$PREV_STABLE_VERSION"
+    doit kubectl create -k "github.com/jwebb1334/fission/crds/v1?ref=$PREV_STABLE_VERSION"
 
     echo "Installing Fission $PREV_STABLE_VERSION"
     doit helm install --debug --wait --version $PREV_STABLE_VERSION \
         --namespace $ns fission fission-charts/fission-all --set $HELM_VARS_PREV_RELEASE
 
     echo "Download fission cli $PREV_STABLE_VERSION"
-    curl -Lo fission https://github.com/fission/fission/releases/download/$PREV_STABLE_VERSION/fission-$PREV_STABLE_VERSION-linux-amd64 && chmod +x fission && sudo mv fission /usr/local/bin/
+    curl -Lo fission https://github.com/jwebb1334/fission/releases/download/$PREV_STABLE_VERSION/fission-$PREV_STABLE_VERSION-linux-amd64 && chmod +x fission && sudo mv fission /usr/local/bin/
     doit fission version
 }
 

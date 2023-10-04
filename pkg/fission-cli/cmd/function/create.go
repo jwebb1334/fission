@@ -26,17 +26,18 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/executor/util/hpa"
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	"github.com/fission/fission/pkg/fission-cli/cmd/httptrigger"
-	_package "github.com/fission/fission/pkg/fission-cli/cmd/package"
-	"github.com/fission/fission/pkg/fission-cli/cmd/spec"
-	"github.com/fission/fission/pkg/fission-cli/console"
-	flagkey "github.com/fission/fission/pkg/fission-cli/flag/key"
-	"github.com/fission/fission/pkg/fission-cli/util"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/executor/util/hpa"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/httptrigger"
+	_package "github.com/jwebb1334/fission/pkg/fission-cli/cmd/package"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/spec"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
+	flagkey "github.com/jwebb1334/fission/pkg/fission-cli/flag/key"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
 )
 
 const (

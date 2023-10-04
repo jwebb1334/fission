@@ -22,8 +22,8 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/fission/fission/pkg/crd"
-	"github.com/fission/fission/pkg/publisher"
+	"github.com/jwebb1334/fission/pkg/crd"
+	"github.com/jwebb1334/fission/pkg/publisher"
 )
 
 func Start(ctx context.Context, logger *zap.Logger, routerUrl string) error {

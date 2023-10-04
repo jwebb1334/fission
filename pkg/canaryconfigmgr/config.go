@@ -23,8 +23,8 @@ import (
 	"go.uber.org/zap"
 	"k8s.io/client-go/kubernetes"
 
-	config "github.com/fission/fission/pkg/featureconfig"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
+	config "github.com/jwebb1334/fission/pkg/featureconfig"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
 )
 
 // ConfigureFeatures gets the feature config and configures the features that are enabled

@@ -31,8 +31,8 @@ import (
 	influxdbClient "github.com/influxdata/influxdb/client/v2"
 	"github.com/pkg/errors"
 
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/fission-cli/util"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
 )
 
 const (

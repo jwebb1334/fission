@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	fCli "github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
+	fCli "github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
 )
 
 var _ fCli.Input = &Cli{}

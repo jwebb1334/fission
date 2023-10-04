@@ -14,7 +14,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
 )
 
 func Test_toEnvVar(t *testing.T) {

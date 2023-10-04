@@ -25,8 +25,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/yaml"
 
-	"github.com/fission/fission/pkg/fission-cli/console"
-	"github.com/fission/fission/pkg/utils"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type Resource interface {

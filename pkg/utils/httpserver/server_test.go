@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/mux"
 	"go.uber.org/zap"
 
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 )
 
 func TestStartServer(t *testing.T) {

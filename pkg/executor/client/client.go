@@ -31,8 +31,8 @@ import (
 	"go.uber.org/zap"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	ferror "github.com/fission/fission/pkg/error"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	ferror "github.com/jwebb1334/fission/pkg/error"
 )
 
 type (

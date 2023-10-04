@@ -29,9 +29,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/executor/util"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/executor/util"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 func (cn *Container) createOrGetDeployment(ctx context.Context, fn *fv1.Function, deployName string, deployLabels map[string]string, deployAnnotations map[string]string, deployNamespace string) (*appsv1.Deployment, error) {

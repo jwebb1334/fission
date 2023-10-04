@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	"github.com/fission/fission/pkg/fission-cli/util"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
 )
 
 type FissionVersion struct {

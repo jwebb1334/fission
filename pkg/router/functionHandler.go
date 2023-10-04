@@ -34,14 +34,14 @@ import (
 	"go.uber.org/zap"
 	k8stypes "k8s.io/apimachinery/pkg/types"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/crd"
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/error/network"
-	executorClient "github.com/fission/fission/pkg/executor/client"
-	"github.com/fission/fission/pkg/throttler"
-	"github.com/fission/fission/pkg/utils"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/crd"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/error/network"
+	executorClient "github.com/jwebb1334/fission/pkg/executor/client"
+	"github.com/jwebb1334/fission/pkg/throttler"
+	"github.com/jwebb1334/fission/pkg/utils"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 const (
@@ -399,7 +399,7 @@ func (roundTripper RetryingRoundTripper) getDefaultTransport() *http.Transport {
 		TLSHandshakeTimeout:   10 * time.Second,
 		ExpectContinueTimeout: 1 * time.Second,
 		// Default disables caching, Please refer to issue and specifically comment:
-		// https://github.com/fission/fission/issues/723#issuecomment-398781995
+		// https://github.com/jwebb1334/fission/issues/723#issuecomment-398781995
 		// You can change it by setting environment variable "ROUTER_ROUND_TRIP_DISABLE_KEEP_ALIVE"
 		// of router or helm variable "disableKeepAlive" before installation to false.
 		DisableKeepAlives: roundTripper.funcHandler.tsRoundTripperParams.disableKeepAlive,

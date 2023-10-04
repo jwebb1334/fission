@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"time"
 
-	v1 "github.com/fission/fission/pkg/apis/core/v1"
+	v1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
 )
 
 const (

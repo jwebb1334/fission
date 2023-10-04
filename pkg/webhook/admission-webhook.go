@@ -30,8 +30,8 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	v1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/generated/clientset/versioned/scheme"
+	v1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned/scheme"
 	//+kubebuilder:scaffold:imports
 )
 

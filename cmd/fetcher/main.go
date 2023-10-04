@@ -19,9 +19,9 @@ package main
 import (
 	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
 
-	"github.com/fission/fission/cmd/fetcher/app"
-	"github.com/fission/fission/pkg/utils/loggerfactory"
-	"github.com/fission/fission/pkg/utils/profile"
+	"github.com/jwebb1334/fission/cmd/fetcher/app"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
+	"github.com/jwebb1334/fission/pkg/utils/profile"
 )
 
 // Usage: fetcher <shared volume path>

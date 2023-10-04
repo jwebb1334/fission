@@ -30,10 +30,10 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	"github.com/fission/fission/pkg/fission-cli/console"
-	"github.com/fission/fission/pkg/fission-cli/util"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
 )
 
 type LogDBOptions struct {

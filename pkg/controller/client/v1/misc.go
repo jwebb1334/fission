@@ -27,9 +27,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/fission/fission/pkg/controller/client/rest"
-	"github.com/fission/fission/pkg/fission-cli/console"
-	"github.com/fission/fission/pkg/info"
+	"github.com/jwebb1334/fission/pkg/controller/client/rest"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
+	"github.com/jwebb1334/fission/pkg/info"
 )
 
 // TODO: we should remove this interface, having this for now is for backward compatibility.

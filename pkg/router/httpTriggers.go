@@ -30,15 +30,15 @@ import (
 	"k8s.io/client-go/kubernetes"
 	k8sCache "k8s.io/client-go/tools/cache"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	ferror "github.com/fission/fission/pkg/error"
-	executorClient "github.com/fission/fission/pkg/executor/client"
-	config "github.com/fission/fission/pkg/featureconfig"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	"github.com/fission/fission/pkg/info"
-	"github.com/fission/fission/pkg/throttler"
-	"github.com/fission/fission/pkg/utils"
-	"github.com/fission/fission/pkg/utils/metrics"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	executorClient "github.com/jwebb1334/fission/pkg/executor/client"
+	config "github.com/jwebb1334/fission/pkg/featureconfig"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/info"
+	"github.com/jwebb1334/fission/pkg/throttler"
+	"github.com/jwebb1334/fission/pkg/utils"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
 )
 
 // HTTPTriggerSet represents an HTTP trigger set

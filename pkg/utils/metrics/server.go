@@ -25,7 +25,7 @@ import (
 	"go.uber.org/zap"
 	"sigs.k8s.io/controller-runtime/pkg/metrics"
 
-	"github.com/fission/fission/pkg/utils/httpserver"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
 )
 
 func ServeMetrics(ctx context.Context, logger *zap.Logger) {

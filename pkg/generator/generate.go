@@ -17,7 +17,7 @@ limitations under the License.
 package generator
 
 import (
-	"github.com/fission/fission/pkg/generator/encoder"
+	"github.com/jwebb1334/fission/pkg/generator/encoder"
 )
 
 type (

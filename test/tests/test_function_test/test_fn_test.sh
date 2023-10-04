@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #test:disabled
-# Disabled because CI Fails for invalid function https://github.com/fission/fission/issues/653
+# Disabled because CI Fails for invalid function https://github.com/jwebb1334/fission/issues/653
 
 set -euo pipefail
 source $(dirname $0)/../../utils.sh

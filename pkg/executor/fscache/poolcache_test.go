@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/fission/fission/pkg/crd"
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	"github.com/jwebb1334/fission/pkg/crd"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 )
 
 func checkErr(err error) {

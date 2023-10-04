@@ -30,9 +30,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/fission/fission/pkg/utils/httpserver"
-	"github.com/fission/fission/pkg/utils/metrics"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 type (

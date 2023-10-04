@@ -28,9 +28,9 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.uber.org/zap"
 
-	"github.com/fission/fission/pkg/fetcher"
-	"github.com/fission/fission/pkg/utils/httpserver"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	"github.com/jwebb1334/fission/pkg/fetcher"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 var (

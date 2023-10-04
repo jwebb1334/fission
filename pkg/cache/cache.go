@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	ferror "github.com/fission/fission/pkg/error"
+	ferror "github.com/jwebb1334/fission/pkg/error"
 )
 
 type requestType int

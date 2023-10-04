@@ -27,8 +27,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/fission/fission/pkg/utils/httpserver"
-	"github.com/fission/fission/pkg/utils/metrics"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
 )
 
 func OldHandler(responseWriter http.ResponseWriter, request *http.Request) {

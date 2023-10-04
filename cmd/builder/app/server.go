@@ -22,8 +22,8 @@ import (
 
 	"go.uber.org/zap"
 
-	builder "github.com/fission/fission/pkg/builder"
-	"github.com/fission/fission/pkg/utils/httpserver"
+	builder "github.com/jwebb1334/fission/pkg/builder"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
 )
 
 // Usage: builder <shared volume path>

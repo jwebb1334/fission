@@ -25,11 +25,11 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"sigs.k8s.io/yaml"
 
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	spectypes "github.com/fission/fission/pkg/fission-cli/cmd/spec/types"
-	flagkey "github.com/fission/fission/pkg/fission-cli/flag/key"
-	"github.com/fission/fission/pkg/fission-cli/util"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	spectypes "github.com/jwebb1334/fission/pkg/fission-cli/cmd/spec/types"
+	flagkey "github.com/jwebb1334/fission/pkg/fission-cli/flag/key"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
 )
 
 type InitSubCommand struct {

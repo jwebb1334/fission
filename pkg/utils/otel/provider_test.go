@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/contrib/propagators/autoprop"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace"
 
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 )
 
 func TestGetPropogater(t *testing.T) {

@@ -17,34 +17,34 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
-	wrapper "github.com/fission/fission/pkg/fission-cli/cliwrapper/driver/cobra"
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/driver/cobra/helptemplate"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	"github.com/fission/fission/pkg/fission-cli/cmd/archive"
-	"github.com/fission/fission/pkg/fission-cli/cmd/canaryconfig"
-	"github.com/fission/fission/pkg/fission-cli/cmd/check"
-	"github.com/fission/fission/pkg/fission-cli/cmd/environment"
-	"github.com/fission/fission/pkg/fission-cli/cmd/function"
-	"github.com/fission/fission/pkg/fission-cli/cmd/httptrigger"
-	"github.com/fission/fission/pkg/fission-cli/cmd/kubewatch"
-	"github.com/fission/fission/pkg/fission-cli/cmd/mqtrigger"
-	_package "github.com/fission/fission/pkg/fission-cli/cmd/package"
-	"github.com/fission/fission/pkg/fission-cli/cmd/spec"
-	"github.com/fission/fission/pkg/fission-cli/cmd/support"
-	"github.com/fission/fission/pkg/fission-cli/cmd/timetrigger"
-	"github.com/fission/fission/pkg/fission-cli/cmd/token"
-	"github.com/fission/fission/pkg/fission-cli/cmd/version"
-	"github.com/fission/fission/pkg/fission-cli/console"
-	"github.com/fission/fission/pkg/fission-cli/flag"
-	flagkey "github.com/fission/fission/pkg/fission-cli/flag/key"
-	_ "github.com/fission/fission/pkg/mqtrigger/messageQueue/kafka"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
+	wrapper "github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/driver/cobra"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/driver/cobra/helptemplate"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/archive"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/canaryconfig"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/check"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/environment"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/function"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/httptrigger"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/kubewatch"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/mqtrigger"
+	_package "github.com/jwebb1334/fission/pkg/fission-cli/cmd/package"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/spec"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/support"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/timetrigger"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/token"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd/version"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
+	"github.com/jwebb1334/fission/pkg/fission-cli/flag"
+	flagkey "github.com/jwebb1334/fission/pkg/fission-cli/flag/key"
+	_ "github.com/jwebb1334/fission/pkg/mqtrigger/messageQueue/kafka"
 )
 
 const (
 	usage = `Fission: Fast and Simple Serverless Functions for Kubernetes
 
- * GitHub: https://github.com/fission/fission
+ * GitHub: https://github.com/jwebb1334/fission
  * Documentation: https://fission.io/docs
 `
 )

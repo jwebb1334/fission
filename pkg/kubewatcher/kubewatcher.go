@@ -36,10 +36,10 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/kubernetes"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/publisher"
-	"github.com/fission/fission/pkg/utils"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/publisher"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type (

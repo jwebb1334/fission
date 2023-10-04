@@ -19,10 +19,10 @@ package archive
 import (
 	"fmt"
 
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	"github.com/fission/fission/pkg/fission-cli/util"
-	storagesvcClient "github.com/fission/fission/pkg/storagesvc/client"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
+	storagesvcClient "github.com/jwebb1334/fission/pkg/storagesvc/client"
 )
 
 type ListSubCommand struct {

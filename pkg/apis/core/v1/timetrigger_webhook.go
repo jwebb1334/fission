@@ -23,8 +23,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/webhook"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 )
 
 // log is for logging in this package.

@@ -30,14 +30,14 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/fission-cli/logdb"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	"github.com/fission/fission/pkg/info"
-	"github.com/fission/fission/pkg/utils"
-	"github.com/fission/fission/pkg/utils/httpserver"
-	"github.com/fission/fission/pkg/utils/metrics"
-	"github.com/fission/fission/pkg/utils/otel"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/fission-cli/logdb"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/info"
+	"github.com/jwebb1334/fission/pkg/utils"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
+	"github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 var podNamespace string

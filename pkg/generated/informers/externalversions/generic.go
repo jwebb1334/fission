@@ -21,7 +21,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/fission/fission/pkg/apis/core/v1"
+	v1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

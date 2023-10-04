@@ -16,9 +16,9 @@ import (
 	"k8s.io/client-go/tools/cache"
 	metricsapi "k8s.io/metrics/pkg/apis/metrics"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	genInformer "github.com/fission/fission/pkg/generated/informers/externalversions"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	genInformer "github.com/jwebb1334/fission/pkg/generated/informers/externalversions"
 )
 
 func GetInformersForNamespaces(client versioned.Interface, defaultSync time.Duration, kind string) map[string]cache.SharedIndexInformer {

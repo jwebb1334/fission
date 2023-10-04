@@ -43,15 +43,15 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/client-go/tools/reference"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/crd"
-	ferror "github.com/fission/fission/pkg/error"
-	"github.com/fission/fission/pkg/error/network"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	"github.com/fission/fission/pkg/info"
-	storageSvcClient "github.com/fission/fission/pkg/storagesvc/client"
-	"github.com/fission/fission/pkg/utils"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/crd"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/error/network"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/info"
+	storageSvcClient "github.com/jwebb1334/fission/pkg/storagesvc/client"
+	"github.com/jwebb1334/fission/pkg/utils"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 type (

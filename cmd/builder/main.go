@@ -22,9 +22,9 @@ import (
 	"go.uber.org/zap"
 	"sigs.k8s.io/controller-runtime/pkg/manager/signals"
 
-	"github.com/fission/fission/cmd/builder/app"
-	"github.com/fission/fission/pkg/utils/loggerfactory"
-	"github.com/fission/fission/pkg/utils/profile"
+	"github.com/jwebb1334/fission/cmd/builder/app"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
+	"github.com/jwebb1334/fission/pkg/utils/profile"
 )
 
 // Usage: builder <shared volume path>

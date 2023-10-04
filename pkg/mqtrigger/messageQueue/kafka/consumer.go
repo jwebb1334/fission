@@ -27,9 +27,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/mqtrigger"
-	"github.com/fission/fission/pkg/utils"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/mqtrigger"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type MqtConsumerGroupHandler struct {

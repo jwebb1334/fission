@@ -24,9 +24,9 @@ import (
 	"k8s.io/client-go/kubernetes"
 	k8sCache "k8s.io/client-go/tools/cache"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/executor/executortype"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/executor/executortype"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
 )
 
 // getConfigmapRelatedFuncs returns functions related to configmap in the same namespace

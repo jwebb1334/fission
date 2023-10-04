@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fission/fission/pkg/utils/loggerfactory"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 	"github.com/stretchr/testify/assert"
 )
 

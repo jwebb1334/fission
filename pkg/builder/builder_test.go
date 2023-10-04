@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 )
 
 func TestBuilder(t *testing.T) {

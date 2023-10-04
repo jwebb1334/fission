@@ -29,9 +29,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/fission/fission/pkg/builder"
-	ferror "github.com/fission/fission/pkg/error"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	"github.com/jwebb1334/fission/pkg/builder"
+	ferror "github.com/jwebb1334/fission/pkg/error"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 type (

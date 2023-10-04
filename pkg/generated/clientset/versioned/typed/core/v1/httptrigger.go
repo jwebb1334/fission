@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	v1 "github.com/fission/fission/pkg/apis/core/v1"
-	scheme "github.com/fission/fission/pkg/generated/clientset/versioned/scheme"
+	v1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	scheme "github.com/jwebb1334/fission/pkg/generated/clientset/versioned/scheme"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

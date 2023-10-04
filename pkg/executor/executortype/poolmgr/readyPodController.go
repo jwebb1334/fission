@@ -7,7 +7,7 @@ import (
 	k8sCache "k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/fission/fission/pkg/utils"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 func (gp *GenericPool) readyPodEventHandlers() k8sCache.ResourceEventHandlerFuncs {

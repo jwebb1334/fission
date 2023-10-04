@@ -19,9 +19,9 @@ package v1
 import (
 	"github.com/pkg/errors"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/generator"
-	"github.com/fission/fission/pkg/generator/encoder"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/generator"
+	"github.com/jwebb1334/fission/pkg/generator/encoder"
 )
 
 // ensure environment generator fits the generator interface

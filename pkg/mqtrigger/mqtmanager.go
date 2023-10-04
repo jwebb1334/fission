@@ -24,11 +24,11 @@ import (
 	"go.uber.org/zap"
 	k8sCache "k8s.io/client-go/tools/cache"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
-	"github.com/fission/fission/pkg/mqtrigger/messageQueue"
-	"github.com/fission/fission/pkg/utils"
-	"github.com/fission/fission/pkg/utils/metrics"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/mqtrigger/messageQueue"
+	"github.com/jwebb1334/fission/pkg/utils"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
 )
 
 const (

@@ -19,8 +19,8 @@ package fake
 import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	v1 "github.com/fission/fission/pkg/controller/client/v1"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	v1 "github.com/jwebb1334/fission/pkg/controller/client/v1"
 )
 
 type (

@@ -23,9 +23,9 @@ import (
 	"go.uber.org/zap"
 	"k8s.io/apimachinery/pkg/types"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/publisher"
-	"github.com/fission/fission/pkg/utils"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/publisher"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type requestType int

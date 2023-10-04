@@ -26,8 +26,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 func (cn *Container) getSvPort(fn *fv1.Function) (port int32, err error) {

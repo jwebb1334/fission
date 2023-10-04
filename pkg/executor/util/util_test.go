@@ -24,8 +24,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/utils/loggerfactory"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/utils/loggerfactory"
 	apiv1 "k8s.io/api/core/v1"
 )
 

@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"github.com/fission/fission/cmd/fission-cli/app"
-	"github.com/fission/fission/pkg/fission-cli/console"
+	"github.com/jwebb1334/fission/cmd/fission-cli/app"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
 )
 
 func main() {

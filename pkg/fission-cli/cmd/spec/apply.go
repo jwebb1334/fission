@@ -31,15 +31,15 @@ import (
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/fission-cli/cliwrapper/cli"
-	"github.com/fission/fission/pkg/fission-cli/cmd"
-	pkgutil "github.com/fission/fission/pkg/fission-cli/cmd/package/util"
-	spectypes "github.com/fission/fission/pkg/fission-cli/cmd/spec/types"
-	"github.com/fission/fission/pkg/fission-cli/console"
-	flagkey "github.com/fission/fission/pkg/fission-cli/flag/key"
-	"github.com/fission/fission/pkg/fission-cli/util"
-	"github.com/fission/fission/pkg/utils"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cliwrapper/cli"
+	"github.com/jwebb1334/fission/pkg/fission-cli/cmd"
+	pkgutil "github.com/jwebb1334/fission/pkg/fission-cli/cmd/package/util"
+	spectypes "github.com/jwebb1334/fission/pkg/fission-cli/cmd/spec/types"
+	"github.com/jwebb1334/fission/pkg/fission-cli/console"
+	flagkey "github.com/jwebb1334/fission/pkg/fission-cli/flag/key"
+	"github.com/jwebb1334/fission/pkg/fission-cli/util"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type ApplySubCommand struct {

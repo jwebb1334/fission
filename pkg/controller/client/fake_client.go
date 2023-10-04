@@ -17,9 +17,9 @@ limitations under the License.
 package client
 
 import (
-	"github.com/fission/fission/pkg/controller/client/rest"
-	v1 "github.com/fission/fission/pkg/controller/client/v1"
-	"github.com/fission/fission/pkg/controller/client/v1/fake"
+	"github.com/jwebb1334/fission/pkg/controller/client/rest"
+	v1 "github.com/jwebb1334/fission/pkg/controller/client/v1"
+	"github.com/jwebb1334/fission/pkg/controller/client/v1/fake"
 )
 
 type (

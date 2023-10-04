@@ -16,7 +16,7 @@ limitations under the License.
 
 package poolmgr
 
-import fv1 "github.com/fission/fission/pkg/apis/core/v1"
+import fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
 
 func getEnvPoolSize(env *fv1.Environment) int32 {
 	var poolsize int32

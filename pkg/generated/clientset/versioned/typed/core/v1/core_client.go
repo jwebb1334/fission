@@ -21,8 +21,8 @@ package v1
 import (
 	"net/http"
 
-	v1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/generated/clientset/versioned/scheme"
+	v1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

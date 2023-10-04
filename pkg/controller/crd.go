@@ -20,7 +20,7 @@ import (
 	"go.uber.org/zap"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/fission/fission/pkg/generated/clientset/versioned"
+	"github.com/jwebb1334/fission/pkg/generated/clientset/versioned"
 )
 
 func makeCRDBackedAPI(logger *zap.Logger, fissionClient versioned.Interface, kubernetesClient kubernetes.Interface) (*API, error) {

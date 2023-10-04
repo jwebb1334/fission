@@ -20,8 +20,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/fission/fission/pkg/controller/client/rest"
-	ferror "github.com/fission/fission/pkg/error"
+	"github.com/jwebb1334/fission/pkg/controller/client/rest"
+	ferror "github.com/jwebb1334/fission/pkg/error"
 )
 
 type (

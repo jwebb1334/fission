@@ -35,12 +35,12 @@ import (
 	k8sCache "k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	fv1 "github.com/fission/fission/pkg/apis/core/v1"
-	"github.com/fission/fission/pkg/crd"
-	"github.com/fission/fission/pkg/executor/fscache"
-	genInformer "github.com/fission/fission/pkg/generated/informers/externalversions"
-	flisterv1 "github.com/fission/fission/pkg/generated/listers/core/v1"
-	"github.com/fission/fission/pkg/utils"
+	fv1 "github.com/jwebb1334/fission/pkg/apis/core/v1"
+	"github.com/jwebb1334/fission/pkg/crd"
+	"github.com/jwebb1334/fission/pkg/executor/fscache"
+	genInformer "github.com/jwebb1334/fission/pkg/generated/informers/externalversions"
+	flisterv1 "github.com/jwebb1334/fission/pkg/generated/listers/core/v1"
+	"github.com/jwebb1334/fission/pkg/utils"
 )
 
 type (

@@ -50,12 +50,12 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.uber.org/zap"
 
-	"github.com/fission/fission/pkg/crd"
-	executorClient "github.com/fission/fission/pkg/executor/client"
-	"github.com/fission/fission/pkg/throttler"
-	"github.com/fission/fission/pkg/utils/httpserver"
-	"github.com/fission/fission/pkg/utils/metrics"
-	otelUtils "github.com/fission/fission/pkg/utils/otel"
+	"github.com/jwebb1334/fission/pkg/crd"
+	executorClient "github.com/jwebb1334/fission/pkg/executor/client"
+	"github.com/jwebb1334/fission/pkg/throttler"
+	"github.com/jwebb1334/fission/pkg/utils/httpserver"
+	"github.com/jwebb1334/fission/pkg/utils/metrics"
+	otelUtils "github.com/jwebb1334/fission/pkg/utils/otel"
 )
 
 // request url ---[mux]---> Function(name,uid) ----[fmap]----> k8s service url
@@ -67,7 +67,7 @@ func router(ctx context.Context, logger *zap.Logger, httpTriggerSet *HTTPTrigger
 	mux := mux.NewRouter()
 	mux.Use(metrics.HTTPMetricMiddleware)
 
-	// see issue https://github.com/fission/fission/issues/1317
+	// see issue https://github.com/jwebb1334/fission/issues/1317
 	useEncodedPath, _ := strconv.ParseBool(os.Getenv("USE_ENCODED_PATH"))
 	if useEncodedPath {
 		mr = newMutableRouter(logger, mux.UseEncodedPath())
