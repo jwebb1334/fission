@@ -1,4 +1,4 @@
-module github.com/fission/fission
+module jwebb1334/fission
 
 go 1.21
 
@@ -36,6 +36,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4
 	github.com/wcharczuk/go-chart v2.0.1+incompatible
+	github.com/fission/fission v1.19.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.44.0
 	go.opentelemetry.io/contrib/propagators/autoprop v0.44.0
 	go.opentelemetry.io/otel v1.18.0
