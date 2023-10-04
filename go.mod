@@ -1,4 +1,4 @@
-module jwebb1334/fission
+module github.com/jwebb1334/fission
 
 go 1.21
 
